@@ -133,9 +133,10 @@ html{ scrollbar-color:var(--jute) var(--kraft-deep); caret-color:var(--kumkum); 
   background:var(--kraft);
   border-bottom:2px dashed var(--jute);
 }
-.mark{ display:flex; align-items:baseline; gap:.45em; text-decoration:none; margin-right:auto; }
-.mark-stamp{ width:1.5rem; height:1.5rem; align-self:center; flex:none; }
-.mark-word{ font:900 1.9rem/1 var(--font-display); }
+.mark{ display:flex; align-items:center; gap:.5em; text-decoration:none; margin-right:auto; }
+/* the real "AURA" lettering, photographed off Aura's own wooden shop sign and
+   perspective-corrected straight; see assets/photos/README for provenance. */
+.mark-logo{ height:2rem; width:auto; display:block; }
 .mark-rest{ font:700 .8rem/1 var(--font-body); letter-spacing:.14em; text-transform:uppercase; }
 .top-nav{ display:flex; gap:clamp(10px,2vw,26px); }
 .top-nav a{ font-weight:700; text-decoration:none; padding:.3em 0; border-bottom:2px solid transparent; }
@@ -466,9 +467,9 @@ html{ scrollbar-color:var(--jute) var(--kraft-deep); caret-color:var(--kumkum); 
 /* ─────────── FOOTER ─────────── */
 .foot{ background:var(--ink); color:var(--sandal); padding:40px 0 calc(40px + env(safe-area-inset-bottom)); }
 .foot-grid{ display:grid; grid-template-columns:minmax(0,1fr) auto; gap:20px 40px; align-items:start; }
-.foot-mark{ font:900 1.6rem/1 var(--font-display); margin:0 0 .4em; display:flex; align-items:center; gap:.4em; }
-.foot-mark .mark-stamp{ width:1.3em; height:1.3em; }
-.foot-mark span{ font:700 .7rem/1 var(--font-body); letter-spacing:.14em; text-transform:uppercase; margin-left:.4em; }
+.foot-mark{ margin:0 0 .4em; display:flex; align-items:center; gap:.5em; }
+.foot-mark .mark-logo{ height:1.8rem; }
+.foot-mark span{ font:700 .7rem/1 var(--font-body); letter-spacing:.14em; text-transform:uppercase; }
 .foot p{ margin:0 0 .3em; }
 .foot nav{ display:flex; flex-wrap:wrap; gap:6px 18px; font-weight:600; }
 .foot-credit{ grid-column:1 / -1; font-size:.85rem; opacity:.75; }

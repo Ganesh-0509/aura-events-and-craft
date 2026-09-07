@@ -57,7 +57,7 @@ Constraints:
 ## Brand Commitments
 
 - Name: Aura Events & Craft (also "Aura Events" on Instagram: auraeventsinchennai).
-- No logo supplied yet; a wordmark is authored by the site until one arrives.
+- Real logo (added 2026-09-08): the actual "AURA EVENTS & CRAFT" wooden wall sign, photographed by Aura and posted to their Google Business Profile (same photo used in Google Maps' own photo viewer). Perspective-corrected and cropped into `assets/aura-wordmark.png` (header/footer), `assets/aura-logo.jpg` (footer-scale/OG image) and `assets/favicon-32.png` / `apple-touch-icon.png` (a monogram crop of the "A"). Source: https://lh3.googleusercontent.com/gps-cs-s/AHRPTWnDck5vf0AltUN4rf8TXkHubenM6STo0ZZkC8z2dJvaxXP2VtrB4zyBplO3UJT9HpIYiQULQto4M5-JvIEgqgTqeVadqj2hu7_1c1pH9Yg3dVlL3yxaHBf2pOzICFlMXp8syLtAmMsU5ANd=s0. The hand-drawn ink-stamp mark it replaced is gone from the header/footer.
 - Binding negative constraints from the user (FreshFrame, the agency building the site): the result must not resemble the generic event-planner site, nor FreshFrame's own house style. Specifically avoid: full-bleed wedding-photo hero with a gold script font; blush/ivory/rose-gold or near-black + crimson palettes; the standard Services / Gallery / Testimonials / Contact stack; fade-up-on-scroll on every card; the standard name/email/message contact form; the near-black poster hero with a ghost wordmark and split-scroll headline (FreshFrame's own). It should feel warm on open, reveal "more than expected", and have punchy moments.
 
 ## Evidence on Hand
