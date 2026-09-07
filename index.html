@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aura Events &amp; Craft, Porur · Decoration, photos &amp; video, return gifts</title>
+<meta name="description" content="Aura Events & Craft in Porur, Chennai: decoration, photography and videography, return gifts and handmade crafts for family functions. Budget-friendly, rated 5.0 by 16 families on Google. WhatsApp your date.">
+<meta name="theme-color" content="#c99b5f">
+<meta property="og:title" content="Aura Events & Craft, Porur">
+<meta property="og:description" content="One shop, the whole function. Decoration, photos & video, return gifts and crafts in Porur, Chennai.">
+<meta property="og:type" content="website">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@400;500;700;900&family=Catamaran:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Aura Events & Craft",
+  "description": "Event planner and craft shop in Porur, Chennai: decoration, photography and videography, return gifts and handmade crafts for family functions.",
+  "telephone": "+91 98849 22946",
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Monday", "opens": "09:30", "closes": "22:00" }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "30, Theru Veethi Amman Kovil Street No. 3, Porur",
+    "addressLocality": "Chennai",
+    "addressRegion": "Tamil Nadu",
+    "postalCode": "600116",
+    "addressCountry": "IN"
+  },
+  "sameAs": ["https://www.instagram.com/auraeventsinchennai/"],
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "16" }
+}
+</script>
+</head>
+<body>
+<!--
+  DIRECTION CONTRACT · seed 3f9621ac
+
+  THESIS: The site is a thambulam bag, the return-gift bag every guest carries home from a
+  Tamil function; you open it and more keeps coming out. It refuses the category default
+  (full-bleed wedding photo, gold script, blush/ivory, Services/Gallery/Testimonials stack,
+  fade-up on every card) and its opposite (dark moody luxury).
+
+  OWN-WORLD: kraft paper ground with turmeric (manjal) fields, kumkum red for the one action,
+  betel-leaf green as the second field, tissue-sandal insides. Everything drawn flat with an
+  ink outline and no cast shadow, like a printed bag. Arima Madurai display, Catamaran body.
+  Components are bag parts: hang-tags for actions, paper tags for quotes, a jute thread as
+  the page spine, a stamp for the wordmark.
+
+  STORY: A family on a phone learns in one screen that Aura does decor, photos & video,
+  return gifts and crafts from one counter in Porur, cheaply and on time, then packs a bag
+  for their date and sends it on WhatsApp.
+
+  FIRST VIEWPORT: headline left (top on phone), a large closed kraft bag right with a kumkum
+  hang-tag on its handle that IS the primary action ("WhatsApp your date"), the real 5.0/16
+  stamp beside it, and a contents list that ticks as the bag opens on scroll.
+
+  FORM: thambulam bag, candidate 4 of 7 on the grounded list (assigned by the roll; the
+  kolam doorstep was the pick). Raises: label-grid discipline on every tag (sneaker boxes),
+  one continuous thread spine (provenance ribbon), a real rendered glow for the aura
+  (CRT/nixie), strict modular grid inside sections (Swiss wall), reveals that move toward
+  the viewer instead of fading up (chaekgeori).
+
+  FINISH: unreviewed and undocumented is unfinished; this build ends with the finish
+  review, the verdict, and DESIGN.md
+-->
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <filter id="kraft-grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="7" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 .22"/></feComponentTransfer>
+      <feBlend in2="SourceGraphic" mode="multiply"/>
+    </filter>
+    <!-- rubber-stamp ink: uneven coverage and slightly rough edges -->
+    <filter id="stamp-ink" x="-6%" y="-6%" width="112%" height="112%" color-interpolation-filters="sRGB">
+      <feTurbulence type="fractalNoise" baseFrequency=".055 .075" numOctaves="3" seed="11" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="2.6" xChannelSelector="R" yChannelSelector="G" result="rough"/>
+      <feColorMatrix in="n" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -2.6 2.15" result="ink"/>
+      <feComposite in="rough" in2="ink" operator="in"/>
+    </filter>
+
+    <!-- Decoration: backdrop arch, marigold strings, name board, balloons -->
+    <symbol id="it-decor" viewBox="0 0 160 170">
+      <path d="M22 170V72a58 58 0 0 1 116 0v98Z" fill="var(--sandal)" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M38 170V80a42 42 0 0 1 84 0v90" fill="none" stroke="var(--manjal)" stroke-width="7"/>
+      <path d="M22 60Q80 128 138 60" fill="none" stroke="#f0891c" stroke-width="8" stroke-linecap="round" stroke-dasharray="0.5 10"/>
+      <path d="M30 50Q80 112 130 50" fill="none" stroke="var(--kumkum)" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.5 9"/>
+      <rect x="36" y="118" width="88" height="30" rx="6" fill="var(--manjal)" stroke="var(--ink)" stroke-width="3"/>
+      <text x="80" y="139" text-anchor="middle" font-family="Arima Madurai, serif" font-weight="900" font-size="13" fill="var(--ink)">Happy Birthday</text>
+      <g stroke="var(--ink)" stroke-width="3">
+        <path d="M28 46v14M132 44v14" fill="none"/>
+        <circle cx="28" cy="34" r="13" fill="var(--kumkum)"/>
+        <circle cx="132" cy="32" r="13" fill="var(--vettrilai)"/>
+        <circle cx="14" cy="66" r="10" fill="var(--manjal)"/>
+      </g>
+    </symbol>
+
+    <!-- Photo & video: a print with tape and a REC badge -->
+    <symbol id="it-photo" viewBox="0 0 160 170">
+      <g transform="rotate(-5 80 95)">
+        <rect x="26" y="30" width="108" height="132" fill="var(--tissue)" stroke="var(--ink)" stroke-width="3"/>
+        <rect x="36" y="40" width="88" height="92" fill="var(--manjal)"/>
+        <circle cx="80" cy="82" r="24" fill="#fff3d2"/>
+        <path d="M52 132c0-16 10-26 22-26s22 10 22 26" fill="var(--ink-soft)"/>
+        <circle cx="74" cy="92" r="9" fill="var(--ink-soft)"/>
+        <path d="M84 132c0-13 8-21 18-21s18 8 18 21" fill="var(--ink-soft)"/>
+        <circle cx="102" cy="100" r="8" fill="var(--ink-soft)"/>
+        <rect x="58" y="22" width="44" height="14" fill="var(--kraft)" opacity=".92"/>
+      </g>
+      <circle cx="128" cy="44" r="16" fill="var(--kumkum)" stroke="var(--ink)" stroke-width="3"/>
+      <circle cx="128" cy="44" r="4" fill="#fff"/>
+      <text x="128" y="72" text-anchor="middle" font-family="Catamaran, sans-serif" font-weight="800" font-size="11" fill="var(--ink)">REC</text>
+    </symbol>
+
+    <!-- Return gifts: two boxes, ribbon, tag -->
+    <symbol id="it-gift" viewBox="0 0 160 170">
+      <g stroke="var(--ink)" stroke-width="3" stroke-linejoin="round">
+        <rect x="86" y="80" width="60" height="68" fill="var(--vettrilai)"/>
+        <rect x="80" y="68" width="72" height="18" rx="3" fill="var(--vettrilai)"/>
+        <rect x="24" y="96" width="82" height="72" fill="var(--kumkum)"/>
+        <rect x="16" y="82" width="98" height="22" rx="3" fill="var(--kumkum)"/>
+        <rect x="58" y="82" width="14" height="86" fill="var(--manjal)" stroke-width="2"/>
+        <ellipse cx="50" cy="72" rx="16" ry="10" fill="var(--manjal)"/>
+        <ellipse cx="80" cy="72" rx="16" ry="10" fill="var(--manjal)"/>
+        <circle cx="65" cy="76" r="6" fill="var(--manjal)"/>
+        <path d="M122 100v26" fill="none" stroke-width="2"/>
+        <rect x="110" y="124" width="30" height="18" rx="3" fill="var(--sandal)" stroke-width="2"/>
+      </g>
+    </symbol>
+
+    <!-- Crafts & accessories: the pearl clip (emerald) -->
+    <symbol id="it-clip" viewBox="0 0 160 170">
+      <path d="M32 112v18q48 18 96 0v-18" fill="none" stroke="var(--ink)" stroke-width="3"/>
+      <rect x="18" y="66" width="124" height="48" rx="24" fill="var(--clip-fill, var(--emerald))" stroke="var(--ink)" stroke-width="3"/>
+      <rect x="25" y="73" width="110" height="34" rx="17" fill="none" stroke="var(--gold)" stroke-width="3"/>
+      <g fill="#fdf6ea" stroke="var(--ink)" stroke-width="2">
+        <circle cx="46" cy="90" r="11"/><circle cx="69" cy="90" r="11"/><circle cx="92" cy="90" r="11"/><circle cx="115" cy="90" r="11"/>
+      </g>
+      <g fill="#fff"><circle cx="42" cy="86" r="3"/><circle cx="65" cy="86" r="3"/><circle cx="88" cy="86" r="3"/><circle cx="111" cy="86" r="3"/></g>
+    </symbol>
+
+    <!-- Small icons drawn in the same ink line -->
+    <symbol id="ic-wa" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M9 8.5c.2 3 2.6 5.6 5.7 6.4l1.4-1.5-2-1-1 .8a4.5 4.5 0 0 1-2.3-2.3l.8-1-1-2Z" fill="currentColor"/></symbol>
+    <symbol id="ic-call" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="ic-pin" viewBox="0 0 24 24"><path d="M12 21s6-6.5 6-11a6 6 0 0 0-12 0c0 4.5 6 11 6 11Z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="2.5" fill="currentColor"/></symbol>
+    <symbol id="ic-ig" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="17" height="17" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="7" r="1.3" fill="currentColor"/></symbol>
+    <symbol id="ic-star" viewBox="0 0 24 24"><path d="M12 3l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 17l-5.6 3 1.3-6.2L3 9.5l6.3-.7Z" fill="currentColor"/></symbol>
+    <symbol id="ic-knot" viewBox="0 0 40 40"><path d="M20 20C14 8 2 10 5 18s10 6 15 2M20 20c6-12 18-10 15-2s-10 6-15 2M20 20l-6 14M20 20l7 13" fill="none" stroke="var(--jute)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M20 20C14 8 2 10 5 18s10 6 15 2M20 20c6-12 18-10 15-2s-10 6-15 2" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="1 4" opacity=".6"/><rect x="15.5" y="15.5" width="9" height="9" rx="3" fill="var(--jute)" stroke="currentColor" stroke-width="2"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#inside">Skip to what's inside</a>
+
+<header class="top" id="top">
+  <a class="mark" href="#top" aria-label="Aura Events & Craft, home">
+    <svg class="mark-stamp" viewBox="0 0 40 40" aria-hidden="true"><g filter="url(#stamp-ink)"><circle cx="20" cy="20" r="17" fill="none" stroke="var(--ink)" stroke-width="3"/><circle cx="20" cy="20" r="10" fill="none" stroke="var(--ink)" stroke-width="2"/><circle cx="14" cy="20" r="2" fill="var(--ink)"/><circle cx="20" cy="20" r="2" fill="var(--ink)"/><circle cx="26" cy="20" r="2" fill="var(--ink)"/></g></svg>
+    <span class="mark-word">Aura</span>
+    <span class="mark-rest">Events &amp; Craft</span>
+  </a>
+  <nav class="top-nav" aria-label="Sections">
+    <a href="#inside">Inside the bag</a>
+    <a href="#pack">Pack a bag</a>
+    <a href="#families">Families</a>
+    <a href="#find">Find us</a>
+  </nav>
+  <div class="top-actions">
+    <a class="btn btn-ink" href="tel:+919884922946"><svg class="ic" aria-hidden="true"><use href="#ic-call"/></svg>Call</a>
+    <a class="btn btn-kumkum" href="https://wa.me/919884922946?text=Vanakkam%20Aura%2C%20I%27d%20like%20to%20ask%20about%20a%20function." target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-wa"/></svg>WhatsApp</a>
+  </div>
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="sheet">Menu</button>
+</header>
+
+<div class="sheet" id="sheet" hidden>
+  <a href="#inside">Inside the bag</a>
+  <a href="#pack">Pack a bag</a>
+  <a href="#families">Families say</a>
+  <a href="#counter">At the counter</a>
+  <a href="#find">Find us</a>
+  <a href="https://www.instagram.com/auraeventsinchennai/" target="_blank" rel="noopener">Instagram</a>
+</div>
+
+<main>
+<!-- ─────────── THE BAG (sticky stage; scroll opens it) ─────────── -->
+<section class="stage" id="bag" aria-label="What Aura does">
+  <div class="stage-view">
+    <div class="hero wrap">
+      <div class="hero-copy">
+        <h1 class="hero-title">One shop.<br>The whole function.</h1>
+        <p class="hero-tamil" lang="ta">உங்கள் விழாவிற்கு எல்லாம், ஒரே இடத்தில்.</p>
+        <p class="hero-lede">Decoration, photos and video, return gifts and handmade crafts, from one counter in Porur. Budget-friendly and on time.</p>
+
+        <ol class="contents" aria-label="What comes out of the bag">
+          <li style="--start:.08"><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l5 5L20 6" pathLength="1"/></svg>Decoration for the stage and hall</li>
+          <li style="--start:.22"><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l5 5L20 6" pathLength="1"/></svg>Photography and videography</li>
+          <li style="--start:.36"><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l5 5L20 6" pathLength="1"/></svg>Return gifts for every guest</li>
+          <li style="--start:.50"><svg class="tick" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12l5 5L20 6" pathLength="1"/></svg>Handmade crafts and accessories</li>
+        </ol>
+
+        <a class="hero-scroll" href="#inside">Scroll to open the bag<span class="arrow" aria-hidden="true"></span></a>
+      </div>
+
+      <div class="hero-bag">
+        <div class="aura" aria-hidden="true"></div>
+
+        <div class="bag">
+          <svg class="bag-back" viewBox="0 0 400 480" aria-hidden="true">
+            <path d="M120 175C120 40 280 40 280 175" fill="none" stroke="var(--jute)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M72 160h256l-6 300H78Z" fill="var(--kraft-inner)"/>
+            <path d="M72 160h256l-6 300H78Z" fill="var(--kraft-inner)" filter="url(#kraft-grain)"/>
+          </svg>
+
+          <div class="bag-items" aria-hidden="true">
+            <svg class="item" style="--start:.08;--dx:-108%;--dy:-118%"><use href="#it-decor"/></svg>
+            <svg class="item" style="--start:.22;--dx:-34%;--dy:-146%"><use href="#it-photo"/></svg>
+            <svg class="item" style="--start:.36;--dx:38%;--dy:-142%"><use href="#it-gift"/></svg>
+            <svg class="item" style="--start:.50;--dx:112%;--dy:-112%"><use href="#it-clip"/></svg>
+          </div>
+
+          <svg class="bag-front" viewBox="0 0 400 480" role="img" aria-label="A kraft paper bag stamped Aura Events and Craft, Porur">
+            <defs>
+              <path id="stamp-arc" d="M200 318m-64 0a64 64 0 1 1 128 0a64 64 0 1 1-128 0"/>
+            </defs>
+            <path d="M60 160h280l-10 310H70Z" fill="var(--kraft)"/>
+            <path d="M60 160h280l-10 310H70Z" fill="var(--kraft)" filter="url(#kraft-grain)"/>
+            <path d="M60 160h280l-10 310H70Z" fill="none" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M64 186h272" fill="none" stroke="var(--ink)" stroke-width="2" opacity=".55"/>
+            <path d="M96 186v284M304 186v284" fill="none" stroke="var(--ink)" stroke-width="2" opacity=".22"/>
+            <path d="M70 440h260" fill="none" stroke="var(--ink)" stroke-width="2" opacity=".3"/>
+            <g filter="url(#stamp-ink)">
+              <circle cx="200" cy="318" r="86" fill="none" stroke="var(--ink)" stroke-width="3.5"/>
+              <circle cx="200" cy="318" r="50" fill="none" stroke="var(--ink)" stroke-width="2.5"/>
+              <text class="stamp-text" font-size="12.5" font-weight="800" fill="var(--ink)" textLength="398" lengthAdjust="spacing">
+                <textPath href="#stamp-arc" startOffset="0" textLength="398" lengthAdjust="spacing">AURA EVENTS &amp; CRAFT · PORUR · CHENNAI 600116 · </textPath>
+              </text>
+              <text x="200" y="330" text-anchor="middle" class="stamp-word" fill="var(--ink)">Aura</text>
+              <g fill="var(--ink)"><circle cx="186" cy="342" r="2.4"/><circle cx="200" cy="342" r="2.4"/><circle cx="214" cy="342" r="2.4"/></g>
+            </g>
+            <path d="M120 175C120 40 280 40 280 175" fill="none" stroke="var(--jute)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M120 175C120 40 280 40 280 175" fill="none" stroke="#d9b07a" stroke-width="2" stroke-dasharray="3 6" opacity=".7"/>
+            <!-- the hang-tag's string, tied to the handle -->
+            <path class="tag-string" d="M270 123c18 6 38 20 56 39" fill="none" stroke="var(--jute)" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="270" cy="123" r="5" fill="var(--jute)" stroke="var(--ink)" stroke-width="1.5"/>
+          </svg>
+
+          <a class="tag tag-cta" href="https://wa.me/919884922946?text=Vanakkam%20Aura%2C%20I%27m%20planning%20a%20function%20on%20___%20and%20would%20like%20a%20quote." target="_blank" rel="noopener">
+            <span class="tag-hole" aria-hidden="true"></span>
+            <span class="tag-line">WhatsApp</span>
+            <span class="tag-big">your date</span>
+            <span class="tag-sub">98849 22946</span>
+          </a>
+
+          <a class="stamp-rating" href="https://www.google.com/maps/place/Aura+Events+%26+craft/@13.0330155,80.1579191,17z/data=!4m6!3m5!1s0x3a52619d8a7a36a5:0x1b34bc23c1867131!8m2!3d13.0330103!4d80.160494!16s%2Fg%2F11npcr6zxp" target="_blank" rel="noopener" aria-label="Rated 5.0 from 16 reviews on Google, opens Google Maps">
+            <span class="stamp-face">
+              <span class="rating-num">5.0</span>
+              <span class="rating-stars" aria-hidden="true"><svg><use href="#ic-star"/></svg><svg><use href="#ic-star"/></svg><svg><use href="#ic-star"/></svg><svg><use href="#ic-star"/></svg><svg><use href="#ic-star"/></svg></span>
+              <span class="rating-sub">16 families on Google</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─────────── EVERYTHING BELOW HANGS ON THE THREAD ─────────── -->
+<div class="threaded">
+  <svg class="thread" viewBox="0 0 60 1000" preserveAspectRatio="none" aria-hidden="true">
+    <g class="thread-draw">
+      <path class="thread-path" d="M30 0C40 80 18 140 30 220S44 380 26 470 40 640 30 730 22 900 30 1000"/>
+      <path class="thread-twist" d="M30 0C40 80 18 140 30 220S44 380 26 470 40 640 30 730 22 900 30 1000"/>
+    </g>
+  </svg>
+
+  <!-- INSIDE THE BAG -->
+  <section class="inside" id="inside">
+    <div class="wrap">
+      <h2 class="h2 knotted"><svg class="knot arrive" aria-hidden="true"><use href="#ic-knot"/></svg>Inside the bag</h2>
+      <p class="lede">Four things families ask us for. Any one on its own, or all four for one function, from one counter.</p>
+
+      <div class="items-grid">
+        <article class="item-card" id="decor">
+          <div class="item-art"><svg><use href="#it-decor"/></svg></div>
+          <div class="item-body">
+            <h3 class="h3">Decoration</h3>
+            <dl class="label-grid">
+              <div><dt>For</dt><dd>Birthdays, naming ceremonies, puberty functions, engagements, housewarmings, receptions</dd></div>
+              <div><dt>Includes</dt><dd>Stage and backdrop, balloons and flowers, name boards, hall and entrance</dd></div>
+              <div><dt>Where</dt><dd>Your hall, home or venue; on-site service</dd></div>
+            </dl>
+            <blockquote class="quote-tag">
+              <p>Decoration is very elegant.</p>
+              <footer>Janani priya M · Google review</footer>
+            </blockquote>
+          </div>
+        </article>
+
+        <article class="item-card" id="photo">
+          <div class="item-art"><svg><use href="#it-photo"/></svg></div>
+          <div class="item-body">
+            <h3 class="h3">Photography &amp; videography</h3>
+            <dl class="label-grid">
+              <div><dt>For</dt><dd>The whole function, from the entrance to the last guest</dd></div>
+              <div><dt>Includes</dt><dd>Photos and video from one team, edited and delivered</dd></div>
+              <div><dt>Known for</dt><dd>The thing families mention most in our reviews: budget-friendly</dd></div>
+            </dl>
+            <blockquote class="quote-tag">
+              <p>Excellent videography and photography service. Very nice event management.</p>
+              <footer>Priya dharshini · Google review</footer>
+            </blockquote>
+          </div>
+        </article>
+
+        <article class="item-card" id="gifts">
+          <div class="item-art"><svg><use href="#it-gift"/></svg></div>
+          <div class="item-body">
+            <h3 class="h3">Return gifts</h3>
+            <dl class="label-grid">
+              <div><dt>For</dt><dd>Every guest at your function, in bulk</dd></div>
+              <div><dt>Includes</dt><dd>Handmade and ready-made gift items, packed and ready to hand over</dd></div>
+              <div><dt>Known for</dt><dd>Affordable, and delivered with the decoration so you have one less thing to chase</dd></div>
+            </dl>
+            <blockquote class="quote-tag">
+              <p>For my family I ordered return gifts, it was very super.</p>
+              <footer>Ambika M · Google review</footer>
+            </blockquote>
+          </div>
+        </article>
+
+        <article class="item-card" id="crafts">
+          <div class="item-art"><svg><use href="#it-clip"/></svg></div>
+          <div class="item-body">
+            <h3 class="h3">Crafts &amp; accessories</h3>
+            <dl class="label-grid">
+              <div><dt>For</dt><dd>Gifts for a friend, a treat for yourself, or small pieces for the function</dd></div>
+              <div><dt>Includes</dt><dd>Handmade craft products and hair accessories at the counter</dd></div>
+              <div><dt>Right now</dt><dd>Pearl clips in emerald, sapphire and magenta. <a href="#counter">See the drop</a></dd></div>
+            </dl>
+            <blockquote class="quote-tag">
+              <p>Crafts items are excellent with affordable cost.</p>
+              <footer>Janani priya M · Google review</footer>
+            </blockquote>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRINTS: real photos drop into assets/photos/ -->
+  <section class="prints" id="prints" aria-labelledby="prints-h">
+    <div class="wrap">
+      <h2 class="h2 knotted" id="prints-h"><svg class="knot arrive" aria-hidden="true"><use href="#ic-knot"/></svg>Prints from recent functions</h2>
+      <p class="lede">Photos from functions we decorated and covered. Tap a print to see it large.</p>
+    </div>
+    <div class="prints-row" id="prints-row">
+      <!-- filled by script.js from assets/photos/photos.js -->
+    </div>
+    <p class="prints-empty wrap" id="prints-empty" hidden>Aura's real photos go here. Drop them in <code>assets/photos/</code> and list them in <code>photos.js</code>.</p>
+  </section>
+
+  <!-- PACK A BAG: the enquiry, built like packing a bag -->
+  <section class="pack" id="pack">
+    <div class="wrap pack-grid">
+      <div class="pack-copy">
+        <h2 class="h2 knotted"><svg class="knot arrive" aria-hidden="true"><use href="#ic-knot"/></svg>Pack a bag for your function</h2>
+        <p class="lede">Tap what you need and when. We put it in a WhatsApp message for you. No account, no email, nothing to fill twice.</p>
+
+        <form class="packer" id="packer" novalidate>
+          <fieldset>
+            <legend>What is the function?</legend>
+            <div class="chips">
+              <label class="chip"><input type="radio" name="event" value="Birthday" checked>Birthday</label>
+              <label class="chip"><input type="radio" name="event" value="Naming ceremony">Naming ceremony</label>
+              <label class="chip"><input type="radio" name="event" value="Puberty function">Puberty function</label>
+              <label class="chip"><input type="radio" name="event" value="Engagement">Engagement</label>
+              <label class="chip"><input type="radio" name="event" value="Housewarming">Housewarming</label>
+              <label class="chip"><input type="radio" name="event" value="Reception">Reception</label>
+              <label class="chip"><input type="radio" name="event" value="Corporate event">Corporate</label>
+              <label class="chip"><input type="radio" name="event" value="Function">Something else</label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Put in the bag</legend>
+            <div class="chips chips-items">
+              <label class="chip chip-item"><input type="checkbox" name="item" value="Decoration" checked><svg aria-hidden="true"><use href="#it-decor"/></svg>Decoration</label>
+              <label class="chip chip-item"><input type="checkbox" name="item" value="Photography"><svg aria-hidden="true"><use href="#it-photo"/></svg>Photography</label>
+              <label class="chip chip-item"><input type="checkbox" name="item" value="Videography"><svg aria-hidden="true"><use href="#it-photo"/></svg>Videography</label>
+              <label class="chip chip-item"><input type="checkbox" name="item" value="Return gifts"><svg aria-hidden="true"><use href="#it-gift"/></svg>Return gifts</label>
+              <label class="chip chip-item"><input type="checkbox" name="item" value="Craft items"><svg aria-hidden="true"><use href="#it-clip"/></svg>Craft items</label>
+            </div>
+          </fieldset>
+
+          <div class="fields">
+            <label class="field">
+              <span>Date of the function</span>
+              <input type="date" name="date" id="date">
+            </label>
+            <fieldset class="field">
+              <legend>About how many guests</legend>
+              <div class="chips chips-small">
+                <label class="chip"><input type="radio" name="guests" value="under 50">Under 50</label>
+                <label class="chip"><input type="radio" name="guests" value="50 to 100" checked>50 to 100</label>
+                <label class="chip"><input type="radio" name="guests" value="100 to 200">100 to 200</label>
+                <label class="chip"><input type="radio" name="guests" value="200 or more">200+</label>
+              </div>
+            </fieldset>
+            <label class="field">
+              <span>Your name</span>
+              <input type="text" name="name" id="name" autocomplete="name" placeholder="So we know who to greet">
+            </label>
+            <label class="field">
+              <span>Area or venue <em>(optional)</em></span>
+              <input type="text" name="venue" id="venue" placeholder="Porur, Valasaravakkam, a hall name…">
+            </label>
+          </div>
+
+          <div class="pack-actions">
+            <a class="btn btn-kumkum btn-big" id="send-wa" href="https://wa.me/919884922946" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-wa"/></svg>Send this bag on WhatsApp</a>
+            <a class="btn btn-ink" href="tel:+919884922946"><svg class="ic" aria-hidden="true"><use href="#ic-call"/></svg>Or call 98849 22946</a>
+          </div>
+          <p class="pack-note">Appointment required for a visit to the counter, so message first. We reply during opening hours, until 10 pm.</p>
+        </form>
+      </div>
+
+      <aside class="pack-preview" aria-live="polite">
+        <div class="mini-bag">
+          <svg viewBox="0 0 220 260" aria-hidden="true">
+            <path d="M66 96C66 20 154 20 154 96" fill="none" stroke="var(--jute)" stroke-width="6" stroke-linecap="round"/>
+            <path d="M40 90h140l-4 160H44Z" fill="var(--kraft-inner)"/>
+            <path d="M34 90h152l-6 166H40Z" fill="var(--kraft)"/>
+            <path d="M34 90h152l-6 166H40Z" fill="var(--kraft)" filter="url(#kraft-grain)"/>
+            <path d="M34 90h152l-6 166H40Z" fill="none" stroke="var(--ink)" stroke-width="3" stroke-linejoin="round"/>
+            <path d="M38 108h144" stroke="var(--ink)" stroke-width="2" opacity=".5"/>
+          </svg>
+          <div class="mini-items" id="mini-items" aria-hidden="true"></div>
+        </div>
+        <div class="note">
+          <p class="note-title">Your message, as it will send</p>
+          <output class="note-body" id="note-body" for="packer"></output>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- FAMILIES: real Google reviews as paper tags -->
+  <section class="families" id="families">
+    <div class="wrap">
+      <h2 class="h2 knotted"><svg class="knot arrive" aria-hidden="true"><use href="#ic-knot"/></svg>5.0 on Google, from 16 families</h2>
+      <p class="lede">Every tag below is a real review, in the family's own words. <a href="https://www.google.com/maps/place/Aura+Events+%26+craft/@13.0330155,80.1579191,17z/data=!4m6!3m5!1s0x3a52619d8a7a36a5:0x1b34bc23c1867131!8m2!3d13.0330103!4d80.160494!16s%2Fg%2F11npcr6zxp" target="_blank" rel="noopener">Read them all on Google Maps</a>.</p>
+    </div>
+    <ul class="tags-line arrive" id="tags-line" aria-label="Google reviews">
+      <li class="ptag"><p>I booked event, decoration, return gifts, photography and videography are very nice and affordable price. Very good service too.</p><footer>Yoga S</footer></li>
+      <li class="ptag"><p>They planned my family event very nice and they planned event at time. Videography photography vendor service is very nice and it's very cost friendly, very nice and good management.</p><footer>Jaya Shree</footer></li>
+      <li class="ptag"><p>Return gifts are affordable, decoration are very impressive.</p><footer>Sabitha C.R.</footer></li>
+      <li class="ptag"><p>Nice service, budget friendly photography services is very good.</p><footer>Ranjini Udhayan</footer></li>
+      <li class="ptag"><p>Decoration is good and nice quality and I ordered return gifts, it's very good quality. Good event planner.</p><footer>Sneha Ramesh</footer></li>
+      <li class="ptag"><p>Very good photography and crafts items are excellent with affordable cost. Decoration is very elegant.</p><footer>Janani priya M</footer></li>
+      <li class="ptag"><p>Good photography service and budget friendly, and vendor service is good.</p><footer>Hemalatha Kumar</footer></li>
+      <li class="ptag"><p>Decorations is nice and videography and photography is good.</p><footer>Meevitha Kumar</footer></li>
+      <li class="ptag"><p>Nice decoration, the crafts products, return gifts also very nice.</p><footer>Ramani Mani</footer></li>
+      <li class="ptag"><p>Excellent videography and photography service. Very nice event management.</p><footer>Priya dharshini</footer></li>
+      <li class="ptag"><p>For my family I ordered return gifts, it was very super.</p><footer>Ambika M</footer></li>
+      <li class="ptag"><p>Nice gift items with affordable price.</p><footer>Theertha Ek</footer></li>
+      <li class="ptag"><p>Decoration is very nice.</p><footer>Bhavya Nair</footer></li>
+      <li class="ptag"><p>Nice and good service.</p><footer>Divyadharshini N</footer></li>
+    </ul>
+    <p class="wrap words">The words that keep coming back: <b>budget friendly</b>, <b>on time</b>, <b>photography</b>, <b>decoration</b>, <b>return gifts</b>.</p>
+  </section>
+
+  <!-- AT THE COUNTER: the owner's latest product post -->
+  <section class="counter" id="counter">
+    <div class="wrap counter-grid">
+      <div class="counter-copy">
+        <h2 class="h2 knotted"><svg class="knot arrive" aria-hidden="true"><use href="#ic-knot"/></svg>New at the counter</h2>
+        <p class="counter-name">Pearl-encrusted hair clips</p>
+        <blockquote class="owner-post">
+          <p>The perfect finishing touch does exist. Looking for a gift for a bestie, or a treat for yourself? These pearl-encrusted clips add instant elegance to any hairstyle, from messy buns to sleek updos. Sturdy gold-tone hardware with high-shine pearls. Limited stock available.</p>
+          <footer>Posted by Aura on Google</footer>
+        </blockquote>
+        <ul class="swatches" aria-label="Colours">
+          <li><span class="sw" style="--c:var(--emerald)"></span>Emerald green</li>
+          <li><span class="sw" style="--c:var(--sapphire)"></span>Sapphire blue</li>
+          <li><span class="sw" style="--c:var(--magenta)"></span>Magenta pink</li>
+        </ul>
+        <a class="btn btn-sandal" href="https://wa.me/919884922946?text=Vanakkam%20Aura%2C%20are%20the%20pearl%20hair%20clips%20still%20in%20stock%3F" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-wa"/></svg>Ask if it's still in stock</a>
+      </div>
+      <div class="clips arrive" aria-hidden="true">
+        <svg class="clip clip-1" style="--clip-fill:var(--emerald)"><use href="#it-clip"/></svg>
+        <svg class="clip clip-2" style="--clip-fill:var(--sapphire)"><use href="#it-clip"/></svg>
+        <svg class="clip clip-3" style="--clip-fill:var(--magenta)"><use href="#it-clip"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- FIND US -->
+  <section class="find" id="find">
+    <div class="wrap find-grid">
+      <div class="find-copy">
+        <h2 class="h2 knotted"><svg class="knot arrive" aria-hidden="true"><use href="#ic-knot"/></svg>Find the counter</h2>
+        <address class="addr">
+          30, Theru Veethi Amman Kovil Street No. 3,<br>
+          Porur, Chennai, Tamil Nadu 600116<br>
+          <span class="plus">Plus code 25M6+65</span>
+        </address>
+        <dl class="label-grid find-facts">
+          <div><dt>Hours</dt><dd>9:30 am to 10 pm. <mark class="todo">Mon and Tue confirmed on Google; other days to confirm</mark></dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+919884922946">98849 22946</a> (WhatsApp too). The Google listing also shows <a href="tel:+919092702736">090927 02736</a>.</dd></div>
+          <div><dt>Visits</dt><dd>Appointment required. Message on WhatsApp first and we will fix a time.</dd></div>
+          <div><dt>Online</dt><dd>Online appointments and on-site service at your venue</dd></div>
+          <div><dt>Access</dt><dd>Wheelchair-accessible entrance, parking, seating and toilet. Gender-neutral toilet. Assistive hearing loop. Everyone is welcome.</dd></div>
+        </dl>
+        <div class="find-actions">
+          <a class="btn btn-ink" href="https://www.google.com/maps/place/Aura+Events+%26+craft/@13.0330155,80.1579191,17z/data=!4m6!3m5!1s0x3a52619d8a7a36a5:0x1b34bc23c1867131!8m2!3d13.0330103!4d80.160494!16s%2Fg%2F11npcr6zxp" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-pin"/></svg>Directions on Google Maps</a>
+          <a class="btn btn-sandal" href="https://www.instagram.com/auraeventsinchennai/" target="_blank" rel="noopener"><svg class="ic" aria-hidden="true"><use href="#ic-ig"/></svg>auraeventsinchennai</a>
+        </div>
+      </div>
+      <div class="map-frame">
+        <iframe title="Map of Aura Events & Craft, Porur" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Aura+Events+%26+Craft,+30,+Theru+Veethi+Amman+Kovil+Street+No.+3,+Porur,+Chennai+600116&z=16&output=embed"></iframe>
+      </div>
+    </div>
+  </section>
+</div>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-grid">
+    <div>
+      <p class="foot-mark"><svg class="mark-stamp" viewBox="0 0 40 40" aria-hidden="true"><g filter="url(#stamp-ink)"><circle cx="20" cy="20" r="17" fill="none" stroke="currentColor" stroke-width="3"/><circle cx="20" cy="20" r="10" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="14" cy="20" r="2" fill="currentColor"/><circle cx="20" cy="20" r="2" fill="currentColor"/><circle cx="26" cy="20" r="2" fill="currentColor"/></g></svg>Aura <span>Events &amp; Craft</span></p>
+      <p>Porur, Chennai 600116 · <a href="tel:+919884922946">98849 22946</a></p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="#inside">Inside the bag</a>
+      <a href="#pack">Pack a bag</a>
+      <a href="#families">Families say</a>
+      <a href="#counter">At the counter</a>
+      <a href="#find">Find us</a>
+      <a href="https://www.instagram.com/auraeventsinchennai/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+    <p class="foot-credit">Site by <a href="https://freshframe.studio" target="_blank" rel="noopener">Fresh Frame</a></p>
+  </div>
+</footer>
+
+<div class="thumb-bar" id="thumb-bar" hidden>
+  <a class="btn btn-ink" href="tel:+919884922946"><svg class="ic" aria-hidden="true"><use href="#ic-call"/></svg>Call</a>
+  <a class="btn btn-kumkum" href="#pack"><svg class="ic" aria-hidden="true"><use href="#ic-wa"/></svg>Pack a bag</a>
+</div>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo">
+  <button class="lightbox-close" type="button" aria-label="Close">Close</button>
+  <img id="lightbox-img" alt="">
+</div>
+
+<script src="assets/photos/photos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

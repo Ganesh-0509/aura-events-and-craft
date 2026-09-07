@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-07T00:00:00Z",
+  "title": "Design System: Aura Events & Craft",
+  "extensions": {
+    "colorMeta": {
+      "kraft": { "role": "neutral", "displayName": "Kraft", "canonical": "oklch(72.0% 0.095 73)", "tonalRamp": ["oklch(15% 0.039 73)", "oklch(26% 0.057 73)", "oklch(38% 0.081 73)", "oklch(49% 0.095 73)", "oklch(61% 0.095 73)", "oklch(72% 0.095 73)", "oklch(84% 0.095 73)", "oklch(95% 0.037 73)"] },
+      "kraft-deep": { "role": "neutral", "displayName": "Kraft Deep", "canonical": "oklch(66.6% 0.098 72)", "tonalRamp": ["oklch(15% 0.038 72)", "oklch(26% 0.058 72)", "oklch(38% 0.082 72)", "oklch(49% 0.098 72)", "oklch(61% 0.098 72)", "oklch(72% 0.098 72)", "oklch(84% 0.098 72)", "oklch(95% 0.038 72)"] },
+      "kraft-inner": { "role": "neutral", "displayName": "Kraft Inner", "canonical": "oklch(53.2% 0.083 66)", "tonalRamp": ["oklch(15% 0.039 66)", "oklch(26% 0.059 66)", "oklch(38% 0.083 66)", "oklch(49% 0.083 66)", "oklch(61% 0.083 66)", "oklch(72% 0.083 66)", "oklch(84% 0.083 66)", "oklch(95% 0.033 66)"] },
+      "manjal": { "role": "secondary", "displayName": "Manjal (turmeric)", "canonical": "oklch(80.7% 0.160 82)", "tonalRamp": ["oklch(15% 0.036 82)", "oklch(26% 0.056 82)", "oklch(38% 0.078 82)", "oklch(49% 0.100 82)", "oklch(61% 0.124 82)", "oklch(72% 0.148 82)", "oklch(84% 0.160 82)", "oklch(95% 0.048 82)"] },
+      "manjal-deep": { "role": "secondary", "displayName": "Manjal Deep", "canonical": "oklch(75.2% 0.154 79)", "tonalRamp": ["oklch(15% 0.038 79)", "oklch(26% 0.056 79)", "oklch(38% 0.078 79)", "oklch(49% 0.102 79)", "oklch(61% 0.126 79)", "oklch(72% 0.150 79)", "oklch(84% 0.154 79)", "oklch(95% 0.044 79)"] },
+      "kumkum": { "role": "primary", "displayName": "Kumkum Red", "canonical": "oklch(54.1% 0.197 29)", "tonalRamp": ["oklch(15% 0.069 29)", "oklch(26% 0.111 29)", "oklch(38% 0.155 29)", "oklch(49% 0.197 29)", "oklch(61% 0.197 29)", "oklch(72% 0.173 29)", "oklch(84% 0.091 29)", "oklch(95% 0.025 29)"] },
+      "kumkum-deep": { "role": "primary", "displayName": "Kumkum Deep", "canonical": "oklch(45.9% 0.169 29)", "tonalRamp": ["oklch(15% 0.067 29)", "oklch(26% 0.109 29)", "oklch(38% 0.155 29)", "oklch(49% 0.169 29)", "oklch(61% 0.169 29)", "oklch(72% 0.169 29)", "oklch(84% 0.091 29)", "oklch(95% 0.023 29)"] },
+      "kumkum-ink": { "role": "primary", "displayName": "Kumkum Ink", "canonical": "oklch(35.0% 0.127 29)", "tonalRamp": ["oklch(15% 0.067 29)", "oklch(26% 0.109 29)", "oklch(38% 0.127 29)", "oklch(49% 0.127 29)", "oklch(61% 0.127 29)", "oklch(72% 0.127 29)", "oklch(84% 0.089 29)", "oklch(95% 0.023 29)"] },
+      "vettrilai": { "role": "tertiary", "displayName": "Vettrilai (betel-leaf) Green", "canonical": "oklch(46.9% 0.108 151)", "tonalRamp": ["oklch(15% 0.046 151)", "oklch(26% 0.072 151)", "oklch(38% 0.102 151)", "oklch(49% 0.108 151)", "oklch(61% 0.108 151)", "oklch(72% 0.108 151)", "oklch(84% 0.108 151)", "oklch(95% 0.082 151)"] },
+      "vettrilai-deep": { "role": "tertiary", "displayName": "Vettrilai Deep", "canonical": "oklch(39.0% 0.091 150)", "tonalRamp": ["oklch(15% 0.047 150)", "oklch(26% 0.073 150)", "oklch(38% 0.091 150)", "oklch(49% 0.091 150)", "oklch(61% 0.091 150)", "oklch(72% 0.091 150)", "oklch(84% 0.091 150)", "oklch(95% 0.083 150)"] },
+      "sandal": { "role": "neutral", "displayName": "Sandal", "canonical": "oklch(93.4% 0.045 83)", "tonalRamp": ["oklch(15% 0.037 83)", "oklch(26% 0.045 83)", "oklch(38% 0.045 83)", "oklch(49% 0.045 83)", "oklch(61% 0.045 83)", "oklch(72% 0.045 83)", "oklch(84% 0.045 83)", "oklch(95% 0.045 83)"] },
+      "tissue": { "role": "neutral", "displayName": "Tissue", "canonical": "oklch(97.6% 0.023 82)", "tonalRamp": ["oklch(15% 0.023 82)", "oklch(26% 0.023 82)", "oklch(38% 0.023 82)", "oklch(49% 0.023 82)", "oklch(61% 0.023 82)", "oklch(72% 0.023 82)", "oklch(84% 0.023 82)", "oklch(95% 0.023 82)"] },
+      "paper-white": { "role": "neutral", "displayName": "Paper White", "canonical": "oklch(100% 0 0)", "tonalRamp": ["oklch(15% 0 0)", "oklch(26% 0 0)", "oklch(38% 0 0)", "oklch(49% 0 0)", "oklch(61% 0 0)", "oklch(72% 0 0)", "oklch(84% 0 0)", "oklch(95% 0 0)"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "oklch(23.5% 0.032 55)", "tonalRamp": ["oklch(15% 0.032 55)", "oklch(26% 0.032 55)", "oklch(38% 0.032 55)", "oklch(49% 0.032 55)", "oklch(61% 0.032 55)", "oklch(72% 0.032 55)", "oklch(84% 0.032 55)", "oklch(95% 0.028 55)"] },
+      "ink-soft": { "role": "neutral", "displayName": "Ink Soft", "canonical": "oklch(33.1% 0.052 55)", "tonalRamp": ["oklch(15% 0.044 55)", "oklch(26% 0.052 55)", "oklch(38% 0.052 55)", "oklch(49% 0.052 55)", "oklch(61% 0.052 55)", "oklch(72% 0.052 55)", "oklch(84% 0.052 55)", "oklch(95% 0.028 55)"] },
+      "jute": { "role": "neutral", "displayName": "Jute", "canonical": "oklch(51.1% 0.089 63)", "tonalRamp": ["oklch(15% 0.041 63)", "oklch(26% 0.061 63)", "oklch(38% 0.087 63)", "oklch(49% 0.089 63)", "oklch(61% 0.089 63)", "oklch(72% 0.089 63)", "oklch(84% 0.089 63)", "oklch(95% 0.031 63)"] },
+      "emerald": { "role": "tertiary", "displayName": "Emerald (product)", "canonical": "oklch(56.3% 0.120 159)", "tonalRamp": ["oklch(15% 0.038 159)", "oklch(26% 0.062 159)", "oklch(38% 0.088 159)", "oklch(49% 0.114 159)", "oklch(61% 0.120 159)", "oklch(72% 0.120 159)", "oklch(84% 0.120 159)", "oklch(95% 0.076 159)"] },
+      "sapphire": { "role": "tertiary", "displayName": "Sapphire (product)", "canonical": "oklch(44.5% 0.146 261)", "tonalRamp": ["oklch(15% 0.086 261)", "oklch(26% 0.118 261)", "oklch(38% 0.146 261)", "oklch(49% 0.146 261)", "oklch(61% 0.146 261)", "oklch(72% 0.144 261)", "oklch(84% 0.080 261)", "oklch(95% 0.024 261)"] },
+      "magenta": { "role": "tertiary", "displayName": "Magenta (product)", "canonical": "oklch(55.6% 0.211 355)", "tonalRamp": ["oklch(15% 0.069 355)", "oklch(26% 0.111 355)", "oklch(38% 0.157 355)", "oklch(49% 0.203 355)", "oklch(61% 0.211 355)", "oklch(72% 0.197 355)", "oklch(84% 0.103 355)", "oklch(95% 0.027 355)"] },
+      "gold": { "role": "tertiary", "displayName": "Gold (product hardware)", "canonical": "oklch(75.1% 0.130 80)", "tonalRamp": ["oklch(15% 0.038 80)", "oklch(26% 0.056 80)", "oklch(38% 0.078 80)", "oklch(49% 0.102 80)", "oklch(61% 0.126 80)", "oklch(72% 0.130 80)", "oklch(84% 0.130 80)", "oklch(95% 0.046 80)"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "The hero headline only; balanced wrap." },
+      "headline": { "displayName": "Headline", "purpose": "Every section heading, with a knot tied to its left." },
+      "title": { "displayName": "Title", "purpose": "Item-card headings and fieldset legends." },
+      "tag-text": { "displayName": "Tag Text", "purpose": "Anything written by hand on a tag or note: quotes, paper tags, the owner's post, the composed message, print captions, the address." },
+      "lede": { "displayName": "Lede", "purpose": "The one paragraph under each section heading; max 58ch." },
+      "body": { "displayName": "Body", "purpose": "Default reading text. Emphasis is 600 or 700, never italic." },
+      "label": { "displayName": "Label", "purpose": "Uppercase Catamaran for label-grid terms, field labels, note titles, the hang-tag's first line." }
+    },
+    "shadows": [
+      { "name": "outline-2", "value": "inset 0 0 0 2px var(--ink)", "purpose": "Ink outline on chips, paper tags, notes, prints, the owner's post. Not a shadow; the world casts none." },
+      { "name": "outline-2.5", "value": "inset 0 0 0 2.5px var(--ink)", "purpose": "Ink outline on hang-tag buttons." },
+      { "name": "outline-3", "value": "inset 0 0 0 3px var(--ink)", "purpose": "Ink outline on the CTA hang-tag (via ::before with inherited clip-path) and the map frame." },
+      { "name": "hole-ring", "value": "inset 0 0 0 1.5px var(--ink)", "purpose": "The ring around a punched tag hole (6 to 7px disc)." },
+      { "name": "stamp-rings", "value": "inset 0 0 0 3.5px var(--ink), inset 0 0 0 7px var(--sandal), inset 0 0 0 9px var(--ink)", "purpose": "The concentric rings of the rating stamp, drawn on .stamp-face::before together with filter:url(#stamp-ink). The filter is also on the big numeral; the small caption stays unfiltered so 11px text remains legible." },
+      { "name": "tape-edge", "value": "inset 0 0 0 1px rgba(42,26,15,.35)", "purpose": "The faint edge of a kraft tape strip." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "The one easing: every hover, arrival and swing. Also aliased as --ease-swing." },
+      { "name": "hover", "value": "transform .25s var(--ease-out), background .2s", "purpose": "Button lift: translateY(-2px) rotate(-1.5deg); active translateY(1px)." },
+      { "name": "settle", "value": "transform .35s to .5s var(--ease-out)", "purpose": "Off-square paper objects rotate to 0 (and lift 6 to 8px) on hover." },
+      { "name": "arrive", "value": "scale .9s, filter .9s, rotate .9s var(--ease-out); from scale(.92) blur(3px)", "purpose": "Below-the-hero reveal, once, at 20% intersection with -8% bottom root margin. Knots start at scale(.4) rotate(-40deg)." },
+      { "name": "swing", "value": "swing 2.4s var(--ease-out) 1; -14deg → 14deg (40%) → 5deg (70%) → 9deg", "purpose": "The CTA hang-tag on load, origin at its hole (50% 6px)." },
+      { "name": "drop", "value": "drop .5s var(--ease-out) both; from translateY(-40%) scale(.6) opacity 0", "purpose": "Items dropping into the mini bag, staggered 60ms." },
+      { "name": "breathe", "value": "breathe 6s ease-in-out infinite alternate; to filter:brightness(1.08)", "purpose": "The hero glow." },
+      { "name": "scroll-progress", "value": "--p 0→1 over a 250vh stage (210vh ≤600px); items translate(dx*p, dy*p) scale(1 + .32p) rotate(±4deg*p); ticks stroke-dashoffset 1→0 over a .28 window", "purpose": "The bag opens as you scroll. Under reduced motion --p is 1 and the stage is static." }
+    ],
+    "breakpoints": [
+      { "name": "thread-gutter", "value": "1100px", "purpose": "Thread moves into the left gutter (--x:-22px); knots inline." },
+      { "name": "phone", "value": "900px", "purpose": "Menu button + sheet, stacked hero, single columns, thumb bar." },
+      { "name": "small-phone", "value": "600px", "purpose": "Full-width fields and buttons, smaller display, wordmark loses subtitle." },
+      { "name": "short-phone", "value": "max-height 760px and max-width 900px", "purpose": "Smaller bag, contents list hidden so the CTA tag stays in the first screen." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Hang-tag Button, Kumkum",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The primary action as a hang-tag: kumkum fill, pointed left end with a punched hole, ink inset outline, lifts and tilts on hover.",
+      "html": "<a class=\"ds-btn ds-btn-kumkum\" href=\"#\"><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M12 3a9 9 0 0 0-7.8 13.5L3 21l4.7-1.2A9 9 0 1 0 12 3Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/><path d=\"M9 8.5c.2 3 2.6 5.6 5.7 6.4l1.4-1.5-2-1-1 .8a4.5 4.5 0 0 1-2.3-2.3l.8-1-1-2Z\" fill=\"currentColor\"/></svg>WhatsApp</a>",
+      "css": ".ds-btn{--bg:var(--sandal,#f8e7c8);--fg:var(--ink,#2a1a0f);position:relative;display:inline-flex;align-items:center;gap:.5em;padding:.72em 1.15em .72em 1.75em;font:700 1rem/1 Catamaran,'Noto Sans Tamil',system-ui,sans-serif;color:var(--fg);background:var(--bg);text-decoration:none;white-space:nowrap;clip-path:polygon(0 50%,14px 0,100% 0,100% 100%,14px 100%);box-shadow:inset 0 0 0 2.5px var(--ink,#2a1a0f);transition:transform .25s cubic-bezier(.16,1,.3,1),background .2s;cursor:pointer;border:0}.ds-btn::before{content:'';position:absolute;left:11px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:var(--sandal,#f8e7c8);box-shadow:inset 0 0 0 1.5px var(--ink,#2a1a0f)}.ds-btn:hover{transform:translateY(-2px) rotate(-1.5deg)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid var(--kumkum,#c8281e);outline-offset:3px}.ds-btn .ds-ic{width:1.15em;height:1.15em;flex:none}.ds-btn-kumkum{--bg:var(--kumkum,#c8281e);--fg:#fff}.ds-btn-kumkum:hover{background:var(--kumkum-deep,#a11c14)}"
+    },
+    {
+      "name": "Hang-tag Button, Ink",
+      "kind": "button",
+      "refersTo": "button-ink",
+      "description": "The secondary action (Call, Directions): ink fill with sandal text on the same hang-tag.",
+      "html": "<a class=\"ds-btn ds-btn-ink\" href=\"#\"><svg class=\"ds-ic\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path d=\"M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A15 15 0 0 1 3 6a2 2 0 0 1 2-2Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linejoin=\"round\"/></svg>Call</a>",
+      "css": ".ds-btn{--bg:var(--sandal,#f8e7c8);--fg:var(--ink,#2a1a0f);position:relative;display:inline-flex;align-items:center;gap:.5em;padding:.72em 1.15em .72em 1.75em;font:700 1rem/1 Catamaran,'Noto Sans Tamil',system-ui,sans-serif;color:var(--fg);background:var(--bg);text-decoration:none;white-space:nowrap;clip-path:polygon(0 50%,14px 0,100% 0,100% 100%,14px 100%);box-shadow:inset 0 0 0 2.5px var(--ink,#2a1a0f);transition:transform .25s cubic-bezier(.16,1,.3,1),background .2s;cursor:pointer;border:0}.ds-btn::before{content:'';position:absolute;left:11px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:var(--sandal,#f8e7c8);box-shadow:inset 0 0 0 1.5px var(--ink,#2a1a0f)}.ds-btn:hover{transform:translateY(-2px) rotate(-1.5deg)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid var(--kumkum,#c8281e);outline-offset:3px}.ds-btn .ds-ic{width:1.15em;height:1.15em;flex:none}.ds-btn-ink{--bg:var(--ink,#2a1a0f);--fg:var(--sandal,#f8e7c8)}.ds-btn-ink:hover{background:#3a2415}"
+    },
+    {
+      "name": "Hang-tag Button, Sandal",
+      "kind": "button",
+      "refersTo": "button-sandal",
+      "description": "The tertiary action on coloured fields: sandal fill, ink text.",
+      "html": "<a class=\"ds-btn ds-btn-sandal\" href=\"#\">Ask if it's still in stock</a>",
+      "css": ".ds-btn{--bg:var(--sandal,#f8e7c8);--fg:var(--ink,#2a1a0f);position:relative;display:inline-flex;align-items:center;gap:.5em;padding:.72em 1.15em .72em 1.75em;font:700 1rem/1 Catamaran,'Noto Sans Tamil',system-ui,sans-serif;color:var(--fg);background:var(--bg);text-decoration:none;white-space:nowrap;clip-path:polygon(0 50%,14px 0,100% 0,100% 100%,14px 100%);box-shadow:inset 0 0 0 2.5px var(--ink,#2a1a0f);transition:transform .25s cubic-bezier(.16,1,.3,1),background .2s;cursor:pointer;border:0}.ds-btn::before{content:'';position:absolute;left:11px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;background:var(--sandal,#f8e7c8);box-shadow:inset 0 0 0 1.5px var(--ink,#2a1a0f)}.ds-btn:hover{transform:translateY(-2px) rotate(-1.5deg)}.ds-btn:active{transform:translateY(1px)}.ds-btn:focus-visible{outline:3px solid var(--kumkum,#c8281e);outline-offset:3px}.ds-btn-sandal{--bg:var(--sandal,#f8e7c8);--fg:var(--ink,#2a1a0f)}"
+    },
+    {
+      "name": "CTA Hang-tag",
+      "kind": "custom",
+      "refersTo": "hang-tag-cta",
+      "description": "The site's primary action: a kumkum tag with a peaked top and a punched hole, hung from the bag handle. Swings once on load, rotates toward level on hover.",
+      "html": "<div style=\"position:relative;width:180px;height:150px;background:var(--kraft,#c99b5f)\"><a class=\"ds-tag-cta\" href=\"#\"><span class=\"ds-tag-hole\" aria-hidden=\"true\"></span><span class=\"ds-tag-line\">WhatsApp</span><span class=\"ds-tag-big\">your date</span><span class=\"ds-tag-sub\">090927 02736</span></a></div>",
+      "css": ".ds-tag-cta{position:absolute;left:20px;top:8px;width:140px;padding:22px 14px 14px;background:var(--kumkum,#c8281e);color:#fff;text-decoration:none;clip-path:polygon(50% 0,100% 12%,100% 100%,0 100%,0 12%);transform-origin:50% 6px;transform:rotate(9deg);animation:ds-swing 2.4s cubic-bezier(.16,1,.3,1) 1;transition:transform .35s cubic-bezier(.16,1,.3,1),background .2s;font-family:Catamaran,'Noto Sans Tamil',system-ui,sans-serif}.ds-tag-cta::before{content:'';position:absolute;inset:0;box-shadow:inset 0 0 0 3px var(--ink,#2a1a0f);clip-path:inherit;pointer-events:none}.ds-tag-hole{position:absolute;left:50%;top:4px;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:var(--sandal,#f8e7c8);box-shadow:inset 0 0 0 2px var(--ink,#2a1a0f)}.ds-tag-line{display:block;font:700 .82rem/1 inherit;font-family:inherit;letter-spacing:.1em;text-transform:uppercase;opacity:.9}.ds-tag-big{display:block;font:900 1.5rem/1 'Arima Madurai','Noto Serif Tamil',Georgia,serif;margin:.15em 0 .35em}.ds-tag-sub{display:block;font:600 .8rem/1 inherit;font-family:inherit;opacity:.85}.ds-tag-cta:hover{transform:rotate(-4deg);background:var(--kumkum-deep,#a11c14)}.ds-tag-cta:focus-visible{outline:3px solid var(--kumkum,#c8281e);outline-offset:3px}@keyframes ds-swing{0%{transform:rotate(-14deg)}40%{transform:rotate(14deg)}70%{transform:rotate(5deg)}100%{transform:rotate(9deg)}}"
+    },
+    {
+      "name": "Chip",
+      "kind": "chip",
+      "refersTo": "chip",
+      "description": "A small hang-tag wrapping a hidden radio or checkbox; tissue at rest, manjal when selected.",
+      "html": "<div style=\"display:flex;gap:8px;flex-wrap:wrap\"><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-ev\" checked>Birthday</label><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-ev\">Naming ceremony</label><label class=\"ds-chip\"><input type=\"radio\" name=\"ds-ev\">Engagement</label></div>",
+      "css": ".ds-chip{position:relative;display:inline-flex;align-items:center;gap:.4em;padding:.55em .95em .55em 1.55em;background:var(--tissue,#fff6e6);color:var(--ink,#2a1a0f);font:700 .98rem/1.3 Catamaran,'Noto Sans Tamil',system-ui,sans-serif;cursor:pointer;user-select:none;clip-path:polygon(0 50%,12px 0,100% 0,100% 100%,12px 100%);box-shadow:inset 0 0 0 2px var(--ink,#2a1a0f);transition:transform .2s cubic-bezier(.16,1,.3,1),background .15s}.ds-chip::before{content:'';position:absolute;left:9px;top:50%;width:6px;height:6px;margin-top:-3px;border-radius:50%;background:var(--sandal,#f8e7c8);box-shadow:inset 0 0 0 1.5px var(--ink,#2a1a0f)}.ds-chip input{position:absolute;opacity:0;width:1px;height:1px;pointer-events:none}.ds-chip:hover{transform:translateY(-1px) rotate(-1deg)}.ds-chip:has(input:checked){background:var(--manjal,#f3b41f)}.ds-chip:has(input:focus-visible){outline:3px solid var(--kumkum,#c8281e);outline-offset:2px}"
+    },
+    {
+      "name": "Field Input",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Tissue field with an ink bottom rule and an uppercase Catamaran label; the rule turns kumkum and the fill goes white on focus.",
+      "html": "<label class=\"ds-field\"><span>Your name</span><input type=\"text\" placeholder=\"So we know who to greet\"></label>",
+      "css": ".ds-field{display:grid;gap:.35em;margin:0;max-width:320px;font-family:Catamaran,'Noto Sans Tamil',system-ui,sans-serif}.ds-field>span{font:700 .8rem/1.4 inherit;font-family:inherit;letter-spacing:.1em;text-transform:uppercase;color:var(--ink,#2a1a0f)}.ds-field input{font:600 1.05rem inherit;font-family:inherit;color:var(--ink,#2a1a0f);background:var(--tissue,#fff6e6);border:0;border-bottom:2.5px solid var(--ink,#2a1a0f);padding:.6em .5em;min-height:48px;width:100%;transition:background .15s}.ds-field input::placeholder{color:var(--ink-soft,#4a2e1a);opacity:.9;font-weight:500}.ds-field input:focus{background:#fff;outline:0;border-bottom-color:var(--kumkum,#c8281e)}"
+    },
+    {
+      "name": "Quote Tag",
+      "kind": "card",
+      "refersTo": "quote-tag",
+      "description": "A sandal hang-tag carrying one review in the hand-written register, resting at -1.2 degrees.",
+      "html": "<blockquote class=\"ds-quote-tag\"><p>Decoration is very elegant.</p><footer>Janani priya M · Google review</footer></blockquote>",
+      "css": ".ds-quote-tag{position:relative;margin:8px 0;padding:.7em 1em .7em 2em;background:var(--sandal,#f8e7c8);color:var(--ink,#2a1a0f);max-width:34em;clip-path:polygon(0 50%,16px 0,100% 0,100% 100%,16px 100%);transform:rotate(-1.2deg);transform-origin:0 50%}.ds-quote-tag::before{content:'';position:absolute;left:12px;top:50%;width:7px;height:7px;margin-top:-3.5px;border-radius:50%;box-shadow:inset 0 0 0 1.5px var(--ink,#2a1a0f);background:var(--manjal,#f3b41f)}.ds-quote-tag p{margin:0 0 .2em;font:700 1.02rem/1.35 'Arima Madurai','Noto Serif Tamil',Georgia,serif}.ds-quote-tag footer{font:600 .8rem/1.4 Catamaran,'Noto Sans Tamil',system-ui,sans-serif;color:var(--ink-soft,#4a2e1a)}"
+    },
+    {
+      "name": "Paper Tag",
+      "kind": "card",
+      "refersTo": "paper-tag",
+      "description": "A review hung from a jute string on a line; sandal, ink outline, alternating tilt that settles level on hover.",
+      "html": "<div style=\"padding:32px 12px 12px;background:var(--manjal,#f3b41f);background-image:linear-gradient(var(--jute,#8a5a2b),var(--jute,#8a5a2b));background-size:100% 3px;background-position:0 12px;background-repeat:no-repeat\"><figure class=\"ds-ptag\"><p>Return gifts are affordable, decoration are very impressive.</p><footer>Sabitha C.R.</footer></figure></div>",
+      "css": ".ds-ptag{position:relative;margin:0;width:min(78vw,300px);padding:26px 18px 16px;background:var(--sandal,#f8e7c8);color:var(--ink,#2a1a0f);box-shadow:inset 0 0 0 2px var(--ink,#2a1a0f);transform-origin:50% -12px;transform:rotate(-1.6deg);transition:transform .4s cubic-bezier(.16,1,.3,1)}.ds-ptag:hover{transform:rotate(0)}.ds-ptag::before{content:'';position:absolute;left:50%;top:-20px;width:3px;height:24px;margin-left:-1.5px;background:var(--jute,#8a5a2b)}.ds-ptag::after{content:'';position:absolute;left:50%;top:8px;width:10px;height:10px;margin-left:-5px;border-radius:50%;background:var(--manjal,#f3b41f);box-shadow:inset 0 0 0 2px var(--ink,#2a1a0f)}.ds-ptag p{margin:0 0 .5em;font:700 1.02rem/1.35 'Arima Madurai','Noto Serif Tamil',Georgia,serif}.ds-ptag footer{font:700 .82rem/1.4 Catamaran,'Noto Sans Tamil',system-ui,sans-serif;color:var(--ink-soft,#4a2e1a)}.ds-ptag footer::after{content:' · Google review';font-weight:500}"
+    },
+    {
+      "name": "Taped Note",
+      "kind": "card",
+      "refersTo": "taped-note",
+      "description": "A tissue sheet held by a kraft tape strip; carries free text in the hand-written register.",
+      "html": "<div class=\"ds-note\"><p class=\"ds-note-title\">Your message, as it will send</p><p class=\"ds-note-body\">Vanakkam Aura! I am planning a birthday for about 50 to 100 guests.\nPlease pack: Decoration.\nCan you share what it would cost?</p></div>",
+      "css": ".ds-note{position:relative;max-width:320px;margin:12px 0 0;background:var(--tissue,#fff6e6);color:var(--ink,#2a1a0f);padding:18px 20px 22px;transform:rotate(1.2deg);box-shadow:inset 0 0 0 2px var(--ink,#2a1a0f)}.ds-note::before{content:'';position:absolute;left:50%;top:-8px;width:70px;height:16px;margin-left:-35px;background:var(--kraft,#c99b5f);opacity:.92;transform:rotate(-2deg);box-shadow:inset 0 0 0 1px rgba(42,26,15,.35)}.ds-note-title{font:700 .78rem/1.4 Catamaran,'Noto Sans Tamil',system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;margin:0 0 .5em;color:var(--ink-soft,#4a2e1a)}.ds-note-body{margin:0;white-space:pre-line;font:600 1.02rem/1.5 'Arima Madurai','Noto Serif Tamil',Georgia,serif}"
+    },
+    {
+      "name": "Label Grid",
+      "kind": "custom",
+      "refersTo": "label-grid",
+      "description": "Facts about a thing: a 5.5em uppercase label column and ink-at-35% rules between rows. Collapses to one column under 600px.",
+      "html": "<dl class=\"ds-label-grid\"><div><dt>For</dt><dd>Birthdays, naming ceremonies, engagements, housewarmings</dd></div><div><dt>Includes</dt><dd>Stage and backdrop, balloons and flowers, name boards</dd></div><div><dt>Where</dt><dd>Your hall, home or venue; on-site service</dd></div></dl>",
+      "css": ".ds-label-grid{margin:0;display:grid;max-width:420px;color:var(--ink,#2a1a0f);font-family:Catamaran,'Noto Sans Tamil',system-ui,sans-serif}.ds-label-grid>div{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:.6em;padding:.45em 0;border-top:1.5px solid rgba(42,26,15,.35)}.ds-label-grid>div:last-child{border-bottom:1.5px solid rgba(42,26,15,.35)}.ds-label-grid dt{font:700 .78rem/1.8 inherit;font-family:inherit;letter-spacing:.1em;text-transform:uppercase}.ds-label-grid dd{margin:0;font-size:.98rem;line-height:1.55}"
+    },
+    {
+      "name": "Header Nav",
+      "kind": "nav",
+      "refersTo": "nav-link",
+      "description": "Kraft bar with a dashed jute rule, a stamp wordmark, Catamaran links that underline in kumkum, and two hang-tag actions.",
+      "html": "<header class=\"ds-top\"><a class=\"ds-mark\" href=\"#\"><svg class=\"ds-mark-stamp\" viewBox=\"0 0 40 40\" aria-hidden=\"true\"><circle cx=\"20\" cy=\"20\" r=\"17\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"20\" cy=\"20\" r=\"10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"14\" cy=\"20\" r=\"2\" fill=\"currentColor\"/><circle cx=\"20\" cy=\"20\" r=\"2\" fill=\"currentColor\"/><circle cx=\"26\" cy=\"20\" r=\"2\" fill=\"currentColor\"/></svg><span class=\"ds-mark-word\">Aura</span><span class=\"ds-mark-rest\">Events &amp; Craft</span></a><nav class=\"ds-top-nav\"><a href=\"#\">Inside the bag</a><a href=\"#\">Pack a bag</a><a href=\"#\">Families</a><a href=\"#\">Find us</a></nav></header>",
+      "css": ".ds-top{display:flex;align-items:center;gap:clamp(14px,3vw,36px);padding:10px 18px;min-height:62px;background:var(--kraft,#c99b5f);color:var(--ink,#2a1a0f);border-bottom:2px dashed var(--jute,#8a5a2b);font-family:Catamaran,'Noto Sans Tamil',system-ui,sans-serif}.ds-mark{display:flex;align-items:baseline;gap:.45em;text-decoration:none;color:inherit;margin-right:auto}.ds-mark-stamp{width:1.5rem;height:1.5rem;align-self:center;flex:none}.ds-mark-word{font:900 1.9rem/1 'Arima Madurai','Noto Serif Tamil',Georgia,serif}.ds-mark-rest{font:700 .8rem/1 inherit;font-family:inherit;letter-spacing:.14em;text-transform:uppercase}.ds-top-nav{display:flex;gap:clamp(10px,2vw,26px)}.ds-top-nav a{color:inherit;font-weight:700;text-decoration:none;padding:.3em 0;border-bottom:2px solid transparent}.ds-top-nav a:hover{border-bottom-color:var(--kumkum,#c8281e)}.ds-top-nav a:focus-visible{outline:3px solid var(--kumkum,#c8281e);outline-offset:3px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Thambulam Bag",
+    "overview": "The whole site is the return-gift bag a guest carries home from a Tamil function. The page is kraft paper; its sections are the coloured papers inside (turmeric, betel-leaf green, sandal tissue); its components are bag parts (hang-tags for actions, paper tags for quotes, a rubber stamp for the wordmark and the rating, a jute thread for the spine). You open it and more keeps coming out: the hero bag literally opens on scroll, and everything below arrives toward the viewer rather than fading up.\n\nThe world is flat and printed. Every surface is a solid fill with an ink outline drawn as an inset stroke; nothing casts a shadow, nothing has a gradient except the one radial glow behind the bag. Warmth comes from the paper colours and a multiplied grain layer over the whole page, not from photography or gold. The type is two Tamil-native faces: Arima Madurai (heavy, round, festival-poster) for anything that is a heading or a hand-written tag, Catamaran for everything read at length or set as a small capital label. Density is generous on desktop and tight on phones, where the whole story has to fit one screen with the WhatsApp tag still in reach of a thumb.\n\nThis world refuses the generic event-planner site (full-bleed wedding photo, gold script, blush/ivory, Services/Gallery/Testimonials stack, fade-up on every card) and its opposite (dark moody luxury).",
+    "keyCharacteristics": [
+      "Kraft paper ground with coloured paper fields; the only pure white is the inside of a filled input and the text on a kumkum tag",
+      "Ink outlines drawn as inset box-shadows or SVG strokes; no cast shadows anywhere",
+      "One red. Kumkum appears on the primary action, focus rings, tick marks and hover underlines, and nowhere else",
+      "Components are physical bag parts: hang-tags, paper tags, taped notes, stamps, a jute thread",
+      "Everything sits slightly off-square (1° to 9° rotations) and settles square on hover",
+      "Motion is \"coming out of the bag\": scale up toward the viewer, a hang-tag swing, a knot tightening"
+    ],
+    "rules": [
+      { "name": "The One Red Rule", "body": "Kumkum is the action colour and only the action colour. It marks the thing to tap (the hang-tag, the WhatsApp button), the thing that has focus, and the tick that confirms; it never fills a section, a card or a decorative shape.", "section": "colors" },
+      { "name": "The Paper Stack Rule", "body": "Backgrounds are papers and they layer in a fixed order: kraft under everything, manjal and vettrilai as section fields, sandal and tissue as the objects lying on them. A component is always a lighter paper than the field it sits on; never place sandal on tissue or tissue on white.", "section": "colors" },
+      { "name": "The Ink Line Rule", "body": "Every outline is ink (#2a1a0f), drawn as an inset box-shadow (2px to 3.5px) or an SVG stroke (2 to 4). Borders in other colours exist only as dashed jute rules (header, thumb bar, menu sheet dividers) and the kumkum underline on focused inputs and hovered nav links.", "section": "colors" },
+      { "name": "The Field Text Rule", "body": "Text on manjal, sandal, tissue and kraft is ink. Text on vettrilai and ink is tissue or sandal. Text on kumkum is white. Small red text on kraft uses kumkum-ink, never kumkum.", "section": "colors" },
+      { "name": "The Two Registers Rule", "body": "Arima Madurai is for headings and for anything a person would have written by hand on a tag. Catamaran is for anything printed: body, labels, buttons, the stamp's ring text. Do not set body copy in the display face or headings in the body face.", "section": "typography" },
+      { "name": "The Label Grid Rule", "body": "Facts about a thing (For / Includes / Where / Known for; Hours / Visits / Online / Access) are always a dl.label-grid: a 5.5em uppercase Catamaran label column, an ink-at-35% rule between rows, no bullets. It collapses to one column under 600px.", "section": "typography" },
+      { "name": "The No Cast Shadow Rule", "body": "Nothing casts a shadow. Lift is expressed with translateY(-2px to -8px) plus a small rotation on hover, or by a lighter paper, never with box-shadow offsets or blur. If a future surface needs separation, give it an ink outline and a different paper.", "section": "elevation" },
+      { "name": "The Tape Rule", "body": "A loose sheet (note, owner's post, print, map frame) is held down by a kraft tape strip: a 64 to 70px by 16 to 18px pseudo-element at 92% opacity, rotated -2deg (or -40deg on the map's corners), with a 1px ink-at-35% inset outline.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do draw every outline in ink as an inset box-shadow (2px on chips and cards, 2.5px on buttons and inputs, 3px on the CTA tag and menu sheet) or an SVG stroke.",
+      "Do build new actions as hang-tags: the .btn clip-path, a punched hole, and one of the three fills (kumkum, ink, sandal).",
+      "Do write quotes and facts on paper: quotes on sandal tags, structured facts in a label-grid, free text in a taped tissue note.",
+      "Do keep kumkum for the primary action, focus, and confirmation marks only.",
+      "Do rest new paper objects slightly off-square (1° to 2°, alternating sign across siblings) and settle them on hover.",
+      "Do reveal below-the-fold content with .arrive (scale toward the viewer) and tie every new section heading to the thread with a knot.",
+      "Do keep tap targets at least 48px on phones and keep Call and WhatsApp within one tap via the thumb bar.",
+      "Do draw new icons and illustrations inline as SVG in the same 3px ink line, filled with palette variables."
+    ],
+    "donts": [
+      "Don't cast a shadow. No box-shadow with offset or blur, no drop-shadow, no text-shadow.",
+      "Don't round corners. Radius is 0 except for holes, discs and stamps at 50%.",
+      "Don't use gradients on surfaces; the only gradient is the hero glow.",
+      "Don't fill a section, card or decorative shape with kumkum, and don't set small text on kraft in kumkum (use kumkum-ink).",
+      "Don't use a full-bleed photo as a hero, gold or script type, blush/ivory/rose-gold papers, or a dark luxury field.",
+      "Don't fade cards up on scroll; things scale toward the viewer or they do not move.",
+      "Don't set headings in Catamaran or body copy in Arima Madurai.",
+      "Don't add white surfaces beyond the focused input; the palest paper is tissue.",
+      "Don't put a paper darker than its field on top of that field (no sandal on tissue, no kraft object on sandal except a tape strip)."
+    ]
+  }
+}

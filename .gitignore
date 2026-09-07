@@ -1,0 +1,5 @@
+# review screenshots and scratch captures are local only
+.impeccable/review/*.png
+__pycache__/
+Thumbs.db
+.DS_Store
